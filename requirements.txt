@@ -8,3 +8,4 @@ networkx
 pyvis
 pandas
 numpy
+matplotlib
