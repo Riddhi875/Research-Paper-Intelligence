@@ -37,7 +37,7 @@ st.markdown("""
 /* Main application background */
 .stApp {
     background-color: #f5f7fc;
-    color: #172033;
+    color: black;
 }
 
 /* Main content width and spacing */
