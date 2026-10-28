@@ -1,27 +1,35 @@
-
 # Python virtual environments
 .venv/
 venv/
 env/
+ENV/
 
-# Python cache files
+# Python cache and bytecode
 __pycache__/
 *.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Environment variables and secrets
+# Environment variables, credentials, and secrets
 .env
 .env.*
-
-# IDE settings
-.vscode/
-
-# Streamlit local settings
 .streamlit/secrets.toml
 
-# Generated outputs
+# Research paper data and uploads (privacy & repository hygiene)
+*.pdf
+uploads/
+data/*.pdf
 outputs/*
 !outputs/.gitkeep
 
-# OS files
+# IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
 .DS_Store
 Thumbs.db
+desktop.ini
+*.log
